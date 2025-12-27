@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>HOME Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-georgia.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<style type="text/css">
+<!--
+.style3 {color: #FF0000}
+.style4 {color: #FF0000; font-weight: bold; }
+.style7 {
+	font-size: 36px;
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1 align="center"><a href="index.html"><span class="style7">Emotion Recognition on Twitter: Comparative Study and Training a Unison Model</span></a></h1>
+      </div>
+      <div class="searchform"></div>
+      <div class="clr"></div>
+      <div class="menu_nav">
+        <ul>
+          <li class="active"><a href="index.html"><span>Home Page</span></a></li>
+          <li><a href="userlogin.jsp"><span>User</span></a></li>
+          <li><a href="register.jsp"><span>Register</span></a></li>
+          <li><a href="serverlogin.jsp"><span>Admin</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+      <div class="slider">
+        <div id="coin-slider"> <a href="#"><img src="images/slide1.jpg" width="960" height="360" alt="" /></a> <a href="#"><img src="images/slide2.jpg" width="960" height="360" alt="" /></a> <a href="#"><img src="images/slide3.jpg" width="960" height="360" alt="" /></a> </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2 align="center" class="style3">Emotion Recognition on Twitter: Comparative Study and Training a Unison Model</h2>
+          <p class="infopost">&nbsp;</p>
+          <div class="img"><img src="images/img1.jpg" width="198" height="208" alt="" class="fl" /></div>
+          <div class="post_content">
+            <p align="justify" class="style4">Despite recent successes of deep learning in many fields of natural language processing, previous studies of emotion recognition on Twitter mainly focused on the use of lexicons and simple classifiers on bag-of-words models. The central question of our study is whether we can improve their performance using deep learning. To this end, we exploit hashtags to create three large emotion-labeled data sets corresponding to different classifications of emotions. We then compare the performance of several wordand character-based recurrent and convolutional neural networks with the performance on bag-of-words and latent semantic indexing models. We also investigate the transferability of the final hidden state representations between different classifications of emotions, and whether it is possible to build a unison model for predicting all of them using a shared representation. We show that recurrent neural networks, especially character-based ones, can improve over bag-of-words and latent semantic indexing models. Although the transfer capabilities of these models are poor, the newly proposed training heuristic produces a unison model with performance comparable to that of the three single models.</p>
+          </div>
+          <div class="clr"></div>
+        </div>
+        <div class="article">
+          <h2>Introduction </h2>
+          <div class="clr"></div>
+          <div class="img"><img src="images/img2.jpg" width="198" height="208" alt="" class="fl" /></div>
+          <div class="post_content">
+            <p align="justify" class="style4">THE amount of user-generated content on the web grows ever more rapidly, mainly due to the emergence of social networks, blogs, micro-blogging sites and a myriad of other platforms that enable users to share their personal content. Unlike objective and factual professional publishing, user-generated content is richer in opinions, feelings and emotions. These online expressions can have various practical applications. They have been used to predicted stock market fluctuations [1], book sales [2], or movie’s financial success [3]. Due to the vast number of texts, manual inspection for emotion classification is infeasible, hence the need for accurate automatic systems. Although in many cases people can easily spot whether the author of a text was angry or happy, the task is quite challenging for a computer — mainly due to the lack of background knowledge that is implicitly considered by humans.</p>
+          </div>
+          <div class="clr"></div>
+        </div>
+        </div>
+      <div class="sidebar">
+        <div class="gadget">
+          <h2 class="star"><span>Home</span> Menu</h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+            <li><strong><a href="#">Home</a></strong></li>
+            <li><strong><a href="userlogin.jsp">User</a></strong></li>
+            <li><strong><a href="serverlogin.jsp">Server</a></strong></li>
+          </ul>
+        </div>
+        <div class="gadget">
+          <h2 class="star">Concepts</h2>
+          <p class="star style3"><strong>Emotion Recognition, </strong></p>
+          <p class="star style3"><strong>Text Mining,</strong></p>
+          <p class="star style3"><strong> Twitter,</strong></p>
+          <p class="star style3"><strong> Recurrent Neural Networks,</strong></p>
+          <p class="star style3"><strong> Convolutional</strong></p>
+          <p class="star style3"><strong> Neural Networks</strong></p>
+          <ul class="ex_menu"><li></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer"></div>
+</div>
+<div align=center></div>
+</body>
+</html>
