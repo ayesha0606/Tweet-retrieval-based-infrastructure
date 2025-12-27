@@ -1,6 +1,11 @@
+Tweet Retrieval-Based Infrastructure Damage Assessment
+Project Overview
 
-eval (IR), NLP techniques, and sentiment analysis.
-The work is inspired by and aligned with the TAQE (Topic Aligned Query Expansion) research framework proposed for disaster informatics 
+This project implements a tweet retrieval–based infrastructure damage assessment system designed for disaster scenarios such as earthquakes, floods, and tsunamis.
+
+The system focuses on retrieving relevant tweets related to infrastructure damage and estimating damage severity across locations using information retrieval (IR), NLP techniques, and sentiment analysis.
+
+The work is inspired by and aligned with the TAQE (Topic Aligned Query Expansion) research framework proposed for disaster informatics
 Problem Statement
 During disasters, social media platforms like Twitter generate massive volumes of unstructured data.
 However:
